@@ -1,0 +1,29 @@
+/* helps contrast the background from the table */
+body {
+    background-color: beige;
+}
+
+/* setting the size of the table where the cells will live */
+table {
+    width: 800px;
+    height: 800px;
+}
+/* calls class home and adjusts the table to the center */
+.home {
+    margin: auto;
+}
+
+/* setting the size of each cell to 100 by 100 */
+td {
+    width: 100px;
+    height: 100px;
+}
+
+/* color for each cell */
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}

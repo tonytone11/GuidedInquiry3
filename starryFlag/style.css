@@ -1,0 +1,28 @@
+/* Adjusting the table as a whole */
+table {
+    width: 1100px;
+    border-collapse: collapse;
+}
+
+/* finding the right height for all the stripes */
+.small, .long{
+    height: 50px;
+}
+
+/* coloring the stripes */
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color: white;
+}
+
+/* getting the image to sit on top of the stripes */
+.stars {
+    width: 500px;
+    height: 365px;
+    /* I was struggling to find a way to wrap the img and the stripes around each other.
+    But eventually I landed on position: absolute because its able to sit on top of the stripes. */
+    position: absolute;
+}
